@@ -5,9 +5,9 @@ export default (
   <Button 
     uxpId="action1" 
     size="medium" 
-    variant="outlined" 
+    variant="contained" 
     color="primary" 
     fullWidth>
-    Sign Up
+    Get details
   </Button>
 );

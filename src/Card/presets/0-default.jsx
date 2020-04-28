@@ -13,20 +13,19 @@ export default (
   <Card uxpId="1">
     <CardHeader
       uxpId="1.1"
-      avatar={<Avatar aria-label="Recipe" uxpId="1.1.1">R</Avatar>}
+      avatar={<Avatar aria-label="Elon Musk" uxpId="1.1.1" src="https://bit.ly/2xzSUNK"></Avatar>}
       action={<IconButton uxpId="1.1.2"><Icon uxpId="1.1.2.1">more_vert</Icon></IconButton>}
-      title="Shrimp and Chorizo Paella"
-      subheader="September 14, 2016"
+      title="Elon Musk’s design changes"
+      subheader="Electrek"
     />
     <CardMedia uxpId="1.2"
-      image="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
+      image="https://mspoweruser.com/wp-content/uploads/2019/11/tesla-cybertruck-black.jpg"
       style={{"height": "200px"}}
     />
     <CardContent uxpId="1.3">
       <Typography component="p" uxpId="1.3.1">
-        This impressive paella is a perfect party dish and a fun meal to cook
-        together with your guests. Add 1 cup of frozen peas along with the
-        mussels, if you like.
+      Tesla Cybertruck’s insane design is going to be updated for the production version and we now get to see what it could look like based on recent comments by Elon Musk.
+      Over the last week,  CEO Elon Musk has made several comments regarding the Tesla Cybertruck.
       </Typography>
     </CardContent>
     <CardActions disableActionSpacing uxpId="1.4">

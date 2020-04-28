@@ -17,7 +17,7 @@ export default (
         <Icon uxpId="4">menu</Icon>
       </IconButton>
       <Typography variant="h6" color="inherit" uxpId="5">
-        News
+        App bar
       </Typography>
       <Button color="inherit" uxpId="6">Login</Button>
     </Toolbar>

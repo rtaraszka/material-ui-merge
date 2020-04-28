@@ -24,6 +24,13 @@ module.exports = {
           "src/Toolbar/Toolbar.js",
           "src/BottomNavigation/BottomNavigation.js",
           "src/BottomNavigationAction/BottomNavigationAction.js",
+          "src/MenuItem/MenuItem.js",
+          "src/MenuList/MenuList.js",
+        ]
+      },
+      {
+        name: "Tabs",
+        include: [
           "src/Tab/Tab.js",
           "src/Tabs/Tabs.js",
           "src/TabsContainer/TabsContainer.js",
@@ -51,16 +58,9 @@ module.exports = {
       },
       {
         name: "Form",
-        include: [
-          "src/Checkbox/Checkbox.js",
-          "src/Radio/Radio.js",
-          "src/Switch/Switch.js",
+        include: [          
           "src/TextField/TextField.js",
           "src/Input/Input.js",
-          "src/Select/Select.js",
-          "src/RadioGroup/RadioGroup.js",
-          "src/MenuItem/MenuItem.js",
-          "src/MenuList/MenuList.js",
           "src/OutlinedInput/OutlinedInput.js",
           "src/FilledInput/FilledInput.js",
           "src/InputLabel/InputLabel.js",
@@ -69,7 +69,16 @@ module.exports = {
           "src/FormGroup/FormGroup.js",
           "src/FormControlLabel/FormControlLabel.js",
           "src/FormLabel/FormLabel.js",
-          "src/RadioGroup/RadioGroup.js"
+        ]
+      },
+      {
+        name: "UI Control",
+        include: [
+          "src/Checkbox/Checkbox.js",
+          "src/Radio/Radio.js",
+          "src/RadioGroup/RadioGroup.js",
+          "src/Switch/Switch.js",
+          "src/Select/Select.js",
         ]
       },
       {

@@ -4,30 +4,23 @@ import Typography from "../../Typography/Typography";
 
 export default (
   <CardContent uxpId="1">
-    <Typography uxpId="2" paragraph>Method:</Typography>
+    <Typography uxpId="2" paragraph>Tesla Cybertruck’s insane design is going to be updated for the production version and we now get to see what it could look like based on recent comments by Elon Musk. </Typography>
     <Typography uxpId="3" paragraph>
-      Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-      aside for 10 minutes.
+      Over the last week,  CEO Elon Musk has made several comments regarding the Tesla Cybertruck.
+      He talked about how owners will need to wrap the electric pickup to get different colors and he said that Tesla is updating the Cybertruck’s adaptive air suspension.
+      Musk has said before that “there’s more” to the Cybertruck and “It’s better than people realize”.
     </Typography>
     <Typography uxpId="4" paragraph>
-      Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over
-      medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring
-      occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a
-      large plate and set aside, leaving chicken and chorizo in the pan. Add
-      pimentón, bay leaves, garlic, tomatoes, onion, salt and pepper, and cook,
-      stirring often until thickened and fragrant, about 10 minutes. Add saffron
-      broth and remaining 4 1/2 cups chicken broth; bring to a boil.
-    </Typography>
+      Tesla is updating several aspects of the electric pickup for the production version compared to the prototype unveiled last year.
+      Earlier this week, Musk was asked what is the biggest change to Cybertruck from prototype and he responded that Tesla “reduced the size by ~3%”, made the “center line more level”, and “lowered the window sill height.”
+      In our article about it, we asked if any photoshop wizards wanted to try to help us visualize those changes and several responded to the call.
+    </Typography> 
     <Typography uxpId="5" paragraph>
-      Add rice and stir very gently to distribute. Top with artichokes and
-      peppers, and cook without stirring, until most of the liquid is absorbed,
-      15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and
-      mussels, tucking them down into the rice, and cook again without stirring,
-      until mussels have opened and rice is just tender, 5 to 7 minutes more.
-      (Discard any mussels that don’t open.)
+      For a better look, we juxtaposed the two images of the Cybertruck together and you can simply move the slider to see the differences (if you don’t see the slider below, click here):
+      We can see that the electric pickup truck is slightly smaller, the center line is a little more leveled with the ground, and the window sill is closer to the line.
     </Typography>
     <Typography uxpId="6">
-      Set aside off of the heat to let rest for 10 minutes, and then serve.
-    </Typography>
+      Musk says that he is going to do an “overall system review” of the Cybertruck with the engineering team next week and he might release more details about the changes being made to the electric pickup truck then.
+    </Typography> 
   </CardContent>
-);
+); 
