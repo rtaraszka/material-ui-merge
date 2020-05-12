@@ -9,9 +9,9 @@ export default (
   <FormControl component="fieldset" uxpId="1">
     <FormLabel component="legend" uxpId="2">Favorite Band</FormLabel>
     <RadioGroup uxpId="3">
-      <FormControlLabel value="black sabbath" control={<Radio uxpId="4.1" />} label="Black Sabbath" uxpId="4" />
-      <FormControlLabel value="led zeppelin" control={<Radio uxpId="5.1" />} label="Led Zeppelin" uxpId="5" />
-      <FormControlLabel value="pink floyd" control={<Radio uxpId="6.1" />} label="Pink Floyd" uxpId="6" />
+      <FormControlLabel value="black sabbath" control={<Radio uxpId="4.1" />} label="Tesla 3" uxpId="4" />
+      <FormControlLabel value="led zeppelin" control={<Radio uxpId="5.1" />} label="Tesla Cybertruck" uxpId="5" />
+      <FormControlLabel value="pink floyd" control={<Radio uxpId="6.1" />} label="Pink Tesla S" uxpId="6" />
     </RadioGroup>
   </FormControl>
 );
