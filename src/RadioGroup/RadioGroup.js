@@ -21,6 +21,7 @@ RadioGroup.propTypes = {
 
   /**
    * @ignore
+   * @uxpinignoreprop
    */
   onBlur: PropTypes.func,
 
@@ -35,12 +36,13 @@ RadioGroup.propTypes = {
 
   /**
    * @ignore
+   * @uxpinignoreprop
    */
   onKeyDown: PropTypes.func,
 
   /**
-   * @uxpinignoreprop
    * Value of the selected RadioGroup button.
+   * @uxpinbind onChange 1
    */
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool])
 };

@@ -9,8 +9,9 @@ function FormControlLabel(props) {
 FormControlLabel.propTypes = {
 /**
    * If `true`, the component appears selected.
+   * @uxpinbind onChange 1.target.checked
    */
-  checked: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
+  checked: PropTypes.bool,
 
   /**
    * @uxpinignoreprop 
@@ -64,7 +65,6 @@ FormControlLabel.propTypes = {
 
   /**
    * Callback fired when the state is changed.
-   *
    * @param {object} event The event source of the callback.
    * You can pull out the new value by accessing `event.target.checked`.
    * @param {boolean} checked The `checked` value of the switch

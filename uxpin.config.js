@@ -33,8 +33,6 @@ module.exports = {
         include: [
           "src/Tab/Tab.js",
           "src/Tabs/Tabs.js",
-          "src/TabsContainer/TabsContainer.js",
-          "src/TabsContainer/TabContent/TabContent.js",
         ]
       },
       {

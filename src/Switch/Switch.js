@@ -9,6 +9,7 @@ function Switch(props) {
 Switch.propTypes = {
   /**
    * If `true`, the component is checked.
+   * @uxpinbind onChange 0.target.checked
    */
   checked: PropTypes.bool,
 
