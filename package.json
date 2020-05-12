@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "push": "uxpin-merge push --token df51f356bbb940fb139401930281f3098e4b7740 --uxpin-domain develop.uxpin.cloud",
+    "push": "uxpin-merge push",
     "start": "uxpin-merge --disable-tunneling"
   },
   "author": "",
@@ -17,7 +17,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "@material-ui/core": "^4.0.0-rc.0",
-    "@uxpin/merge-cli": "https://registry.npmjs.org/@uxpin/merge-cli/-/merge-cli-2.6.0-rc.tgz",
+    "@uxpin/merge-cli": "^2.5.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^8.0.4",
     "prop-types": "^15.6.2",
