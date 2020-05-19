@@ -46,7 +46,6 @@ FilledInput.propTypes = {
 
   /**
    * End `InputAdornment` for this component.
-   * @uxpincontroltype input
    */
   endAdornment: PropTypes.node,
 
@@ -146,7 +145,6 @@ FilledInput.propTypes = {
   rowsMax: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 
   /**
-   * @uxpincontroltype input
    * Start `InputAdornment` for this component.
    */
   startAdornment: PropTypes.node,
@@ -158,6 +156,7 @@ FilledInput.propTypes = {
   type: PropTypes.string,
 
   /**
+   * @uxpinbind onChange 0.target.value
    * The input value, required for a controlled component.
    */
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object, PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object]))])

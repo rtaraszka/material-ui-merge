@@ -8,7 +8,6 @@ function MenuItem(props) {
 
 MenuItem.propTypes = {
   /**
-   * @uxpinignoreprop 
    * Menu item contents.
    */
   children: PropTypes.node,
@@ -31,11 +30,13 @@ MenuItem.propTypes = {
    */
   disableGutters: PropTypes.bool,
 
+  /**
+   * @uxpinignoreprop 
+   */
   role: PropTypes.string,
 
   selected: PropTypes.bool,
   /**
-   * @uxpinignoreprop 
    */
   value: PropTypes.string,
   onClick: PropTypes.func

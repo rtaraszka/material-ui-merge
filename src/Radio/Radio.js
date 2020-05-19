@@ -9,6 +9,7 @@ function Radio(props) {
 Radio.propTypes = {
   /**
    * @uxpincontroltype switcher
+   * @uxpinbind onChange 1.targer.checked
    * If `true`, the component is checked.
    */
   checked: PropTypes.bool,

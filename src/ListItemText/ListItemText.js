@@ -8,6 +8,7 @@ function ListItemText(props) {
 
 ListItemText.propTypes = {
   /**
+   * @uxpinignoreprop 
    * Alias for the `primary` property.
    */
   children: PropTypes.node,
@@ -45,6 +46,7 @@ ListItemText.propTypes = {
   primary: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * These props will be forwarded to the primary typography component
    * (as long as disableTypography is not `true`).
    */
@@ -56,6 +58,7 @@ ListItemText.propTypes = {
   secondary: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * These props will be forwarded to the secondary typography component
    * (as long as disableTypography is not `true`).
    */

@@ -8,7 +8,6 @@ function FormControl(props) {
 
 FormControl.propTypes = {
   /**
-   * @uxpinignoreprop 
    * The contents of the form control.
    */
   children: PropTypes.node,

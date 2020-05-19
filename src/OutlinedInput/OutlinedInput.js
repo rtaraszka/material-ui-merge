@@ -45,7 +45,6 @@ OutlinedInput.propTypes = {
   disabled: PropTypes.bool,
 
   /**
-   * @uxpincontroltype input
    * End `InputAdornment` for this component.
    */
   endAdornment: PropTypes.node,
@@ -147,7 +146,6 @@ OutlinedInput.propTypes = {
   rowsMax: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 
   /**
-   * @uxpincontroltype input
    * Start `InputAdornment` for this component.
    */
   startAdornment: PropTypes.node,
@@ -159,7 +157,7 @@ OutlinedInput.propTypes = {
   type: PropTypes.string,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinbind onChange 0.target.value
    * The input value, required for a controlled component.
    */
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object, PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object]))])
