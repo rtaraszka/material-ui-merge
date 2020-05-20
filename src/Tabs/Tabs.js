@@ -50,6 +50,7 @@ Tabs.propTypes = {
   component: PropTypes.string,
 
   /**
+   * @uxpinignoreprop
    * If `true`, the Tabss will grow to use all the available space.
    * This property is intended for small views, like on mobile.
    */
@@ -69,6 +70,7 @@ Tabs.propTypes = {
   onChange: PropTypes.func,
 
   /**
+   * @uxpinignoreprop
    * If `true`, it will invoke scrolling properties and allow for horizontally
    * scrolling (or swiping) of the Tabs bar.
    */
@@ -112,10 +114,6 @@ Tabs.propTypes = {
    */
   value: PropTypes.number,
 
-  /**
-   * Number of the tab that supposed to be active initially. Starts with  0 for the first tab.
-   */
-  defaultValue: PropTypes.number,
 
   /**
    *  Determines additional display behavior of the Tabss:

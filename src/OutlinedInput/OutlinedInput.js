@@ -34,7 +34,7 @@ OutlinedInput.propTypes = {
   className: PropTypes.string,
 
   /**
-   * @uxpinpropname Value
+   * @uxpinignoreprop 
    * The default input value, useful when not controlling the component.
    */
   defaultValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object, PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object]))]),
@@ -113,7 +113,6 @@ OutlinedInput.propTypes = {
 
   /**
    * Callback fired when the value is changed.
-   *
    * @param {object} event The event source of the callback.
    * You can pull out the new value by accessing `event.target.value`.
    */
