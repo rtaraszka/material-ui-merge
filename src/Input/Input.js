@@ -111,7 +111,6 @@ Input.propTypes = {
 
   /**
    * Callback fired when the value is changed.
-   *
    * @param {object} event The event source of the callback.
    * You can pull out the new value by accessing `event.target.value`.
    */
@@ -155,6 +154,7 @@ Input.propTypes = {
   type: PropTypes.string,
 
   /**
+   * @uxpinbind onChange 0.target.value
    * The input value, required for a controlled component.
    */
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object, PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object]))])
